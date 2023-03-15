@@ -8,3 +8,14 @@
     font-size: 24px;
 }
 
+#firstDiv {
+    color: blue;
+    font-size: 36px;
+}
+
+#secondDiv {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
+}
+
