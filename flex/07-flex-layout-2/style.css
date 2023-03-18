@@ -10,6 +10,7 @@ body {
   height: 72px;
   font-size: 32px;
   font-weight: 900;
+  padding-left: 16px;
   background: darkmagenta;
   color: white;
 }
@@ -22,6 +23,7 @@ body {
 
 .sidebar {
   width: 300px;
+  flex-shrink: 0;
   background: royalblue;
   box-sizing: border-box;
 }
@@ -36,4 +38,20 @@ body {
   display: flex;
   flex-direction: row;
   flex: 1;
+}
+
+.flex-cards {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 32px;
+
+}
+
+.card {
+  flex-wrap: wrap;
+  display: flex;
+  flex: 0;
+  flex-basis: 200px;
+  padding:32px;
 }
